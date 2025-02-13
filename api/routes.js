@@ -12,6 +12,7 @@ router.post('/create',function(req,res){
         res.status(500).json({msg:"Data Not saved" })
     }
 })
+
 router.get('/read',function(req,res){
         try{
     res.status(200).json(result);
